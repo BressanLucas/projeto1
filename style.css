@@ -1,8 +1,44 @@
 @charset "UTF-8";
 
 body {
-    background: gray;
+    background: rgb(120, 173, 223);
+    margin: 0;
+    padding: 0;
 }
-p {
-    position: static;
+#site {
+    background: white;
+    width: 700px;
+    margin: 1em auto;
+ padding: 0.8em;
+ position: relative;
+
+}
+#banner {
+    background: rgb(0, 119, 255);
+  padding: 1.0em;
+  
+}
+a {
+    color: white;
+ padding: 0.5em;
+ text-decoration: none;
+    
+}
+a:hover {
+    background-color: white;
+     color:  rgb(0, 119, 255);;
+}
+#corpo {
+    border: 10px solid white;
+    width: 700px;
+   
+}
+#chat {
+   background-color: lightpink;
+   width: 150px;
+   height: 200px;
+   padding: 0.5em;
+   position: fixed;
+   bottom: 0;
+   left: 0;
 }
